@@ -1,0 +1,17 @@
+.App {
+  position: relative;
+  min-height: 100vh;
+  background-color: var(--bg-primary);
+}
+
+.main-content {
+  position: relative;
+  z-index: 1;
+  padding-top: 80px;
+}
+
+@media (max-width: 768px) {
+  .main-content {
+    padding-top: 70px;
+  }
+}
